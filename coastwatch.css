@@ -1,0 +1,388 @@
+/*
+SITE COLOURS
+
+Public pages:
+  Site Yellow     - #ECCB00; 
+  Site Navy       - #243663
+  Site Blue       - #0077B6
+  Site Light blue - #359AC9
+  Site Manilla    - #F9F4DD (OLD: #F8F0D5)
+
+Members area page:
+  Site Navy       - as above
+  Site Blue       - as above
+  Light Blue      - #9BCAE3
+  Bluey White     - #F2F5F5
+  Turquoise       - #99CCCC
+*/
+
+
+/* wildcard * is global selector fo ALL xhtml tags */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#page {
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+	margin: auto;  /* places #page in middle of body */
+	width: 950px;
+	text-align: left;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.horiz-nav {
+  color: #0077B6;   /* site navy */
+  /* added background-color rule to get rid of muliple w3c css warnings: 
+  Same colors for color and background-color in two contexts 
+  #about-banner(and others) and .horiz-nav */
+  background-color: #FFFFFF ; 
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0 40px 100px; /*top right bot left */
+}
+
+.horiz-nav li {
+  list-style-image: url(images/horiz-nav-bullet.gif);
+  float: left;
+  margin-left: 20px;
+}
+
+.horiz-nav-bottom {
+  background-color: #F9F4DD;
+}
+
+.members-horiz-nav-bottom {
+  background-color: #9BCAE3;
+}
+
+
+#home-top-horiz-nav {
+  padding-bottom: 15px; /* to create equal space between: top horiz-nav <--> content below it */
+}
+
+#upload {
+  margin: 50px;
+}
+
+#upload label {
+  display: block;
+  width: 200px;
+  float: left;
+}
+
+#upload p {
+  padding: 5px;
+}
+
+
+/* ----------------------- SIDE CONTENT ------------------------*/
+#side-panel{
+  color: white;
+	float: left;
+	width: 216px;
+	background-color: #0077B6;
+  height: 1045px;
+}
+
+
+/*-----------LIST BASED, NOT SO GOOD UNDER TEXT SCALING---------*/
+#side-nav {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+#side-nav li{
+  list-style-type: none;
+  list-style-position: inside;
+  line-height: 20px;
+  text-align: left;
+  font-weight: bold;
+  min-height: 50px;
+  margin: 15px;
+}
+
+#side-nav img {
+  float: left;
+  margin-right: 15px;
+}
+/*---------------------------------------------------------------*/
+
+
+/* ------------- DIV BASED, BETTER UNDER TEXT SCALING------------*/
+#side-nav-div {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 20px;  
+}
+
+.side-nav-entry {
+  min-height: 60px;
+}
+
+.side-nav-entry img {
+  margin-left: 15px;
+  float: left;
+}
+
+.side-nav-entry a {
+  margin-left: 15px;
+  float: left;
+  min-width: 120px;
+  min-height: 60px;
+}
+/* ---------------------------------------------------------------*/
+
+
+#member-login {
+  margin-top: 25px;
+  padding: 42px 12px 42px 12px; /*top right bot left */
+  background-color: #243663;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#member-login a {
+  color: #ECCB00; /* Site yellow */
+}
+
+#links li{
+  color: white;
+  list-style-type: none;
+  text-align: center;
+  padding: 4px;
+}
+
+#links li.even-li{
+  background-color: #359AC9 ;
+}
+
+#links li.title-li {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+
+/* ----------------------- MAIN CONTENT ------------------------*/
+h2 {
+  font-size: 20px;
+}
+
+.main-panel{
+  color: #243663;
+  background-color: #F9F4DD;
+  min-height: 600px;
+}
+
+#home-main-panel {
+  margin-left: 216px; /* same width as #side-panel- stops #main-panel wrapping under #side-panel */
+  min-height: 925px; /* #home-main-panel height + #footer height = #side-panel height = 980px*/ 
+}
+
+#members-main-panel {
+  background-color: #9BCAE3;
+}
+
+.main-text {
+  font-size: 18px;
+  padding: 20px 26px 26px 26px; /*top right bot left */
+  line-height: 22px;
+}
+
+.main-text p {
+  text-indent: 15px;
+}
+
+#go-to-gallery {
+  margin-top: 50px;
+}
+
+#newsletters-main-panel,
+#pictures-main-panel, 
+#gallery-main-panel,
+#upload-main-panel {
+  text-align: center;
+}
+
+#gallery-main-panel {
+  padding-bottom: 40px;
+  min-height: 600px;  
+}
+
+#gallery .caption {
+  color: white;
+  background-color: black;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 20px;
+}
+
+#gallery .nav {
+  margin-top: 20px;
+}
+
+.picture-caption {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px; 
+  line-height: 14px;
+}
+
+.picture-box {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-left: 160px; /* (main-panel - picture width 620px - picture side borders) / 2 */
+  margin-right: 160px; 
+}
+
+.picture-box img {
+  border: 5px solid white;
+  width: 620px;   /* to size box when no picture is there */
+}
+
+#contact-main-text{
+  text-align: center;
+  color: black;
+}
+
+#contact-details h3, #address {
+  margin-top: 15px;
+}
+
+#contact-details a {
+  margin-top: 15px;
+}
+
+#contact-details a, #get-map a {
+  text-align: center;
+  display: block;
+  padding:5px;
+  margin-left: 325px;
+  margin-right: 325px;
+  color: #ECCB00;
+  background-color: #243663;
+}
+
+#get-map {
+  padding: 4px 10px 4px 10px; /*top right bot left */
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 25px;
+}
+
+.footer {
+  color: #243663;
+  background-color: #F9F4DD;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  min-height: 80px;
+  padding: 10px 10px 10px 10px; /*top right bot left */
+}
+
+.footnote {
+  color: navy;
+  font-size: 12px; 
+  line-height: 12px;
+  padding: 1em;
+}
+
+.hits span {
+  font-size: small;
+  font-weight: normal;
+  min-width: 5em;
+  text-align: right;
+  color: #ECCB00;
+  background-color: #243663;
+  padding: 2px 4px 2px 4px;
+  border: 2px ridge;
+}
+
+.w3c-logos {
+  margin-top: 15px;
+  margin-left: 387px; /*page width / 2 - icon width = 950/2-88 = */
+  margin-bottom: 5px;
+}
+
+.w3c-logos img {
+  display: inline;
+}
+
+#adobe-icon {
+   margin-left: 600px;
+}
+
+#newsletter-list {
+  margin-top: 30px;
+  margin-left: 354px;
+  margin-right: 354px;
+  list-style: none;
+}
+
+#newsletter-list li {
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #243663 ;
+  padding: 5px;
+}
+
+
+/* ----------------------- MEMBERS PAGES------------------------*/
+.members-panel {
+  background-color: #F2F5F5;
+  border-right: 2px solid #0077B6;
+  border-bottom: 2px solid #0077B6;
+  margin: 20px;
+}
+
+#notices {
+  float: left;
+	width: 524px;
+  min-height: 600px; 
+}
+
+#members-main-text {
+}
+
+
+/* -------------------------------------------------------------*/
+a {
+  color: #243663; /* site navy */
+  text-decoration: none;
+}
+
+a:hover {
+    color: #0077B6; /* site blue */
+}
+
+#side-panel a, #newsletter-list a {
+  color: white;
+}
+
+.horiz-nav a,
+#members-main-text a {
+  padding-right: 10px;
+}
+
+#go-to-gallery a {
+   color: white;
+   background-color: #243663;
+   padding: 6px 10px 8px 10px;
+}
+
+#side-panel a:hover,
+#contact-details a:hover, 
+#get-map a:hover, 
+#pictures-main-text a:hover,
+#newsletter-list a:hover {
+  color: yellow;
+}
+
+img {
+  display: block; /* Stops Firefox adding the white space below images */
+}

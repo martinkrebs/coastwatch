@@ -1,0 +1,208 @@
+/*
+SITE COLOURS
+
+Public pages:
+  Site Yellow     - #ECCB00; 
+  Site Navy       - #243663 
+  Site Blue       - #0077B6
+  Site Light blue - #359AC9
+  Site Manilla    - #F9F4DD (OLD: #F8F0D5)
+
+Members area page:
+  Site Navy       - as above
+  Site Blue       - as above
+  Light Blue      - #9BCAE3
+  Bluey White     - #F2F5F5
+  Turquoise       - #99CCCC
+*/
+
+
+/*-------------------------IN CONTAINMENT ORDER------------------------*/
+
+/* wildcard * is global selector fo ALL xhtml tags */
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.page {
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+	background-color: white;
+	margin: 0 auto;  /* places #page in middle of body */
+	width: 950px;
+	padding: 5px;
+}
+
+/*-------------------------------ADMIN PAGES----------------------------*/
+#admin-page-body {
+  background-color: #9BCAE3;
+  border: 2px solid black;
+  padding: 30px 40px 30px 40px;
+  min-height: 415px;
+}
+
+#admin-page h1 {
+  border-top:2px solid black ;
+  border-left:2px solid black ;
+  border-right:2px solid black ;
+  background-color: navy;
+  color: white;
+  padding: 10px;
+}
+
+#admin-panel-left {
+  margin-top: 15px;
+  float: left;
+  width: 190px;
+}
+
+#admin-panel-right {
+  margin-left: 190px;
+}
+
+#admin-panel-left ul {
+  margin-bottom: 15px;
+}
+
+#admin-panel-left li {
+  list-style: none inside;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+#admin-panel-left a {
+ padding-left: 2px;
+ padding-right: 2px;
+}
+
+#admin-panel-left a.selected {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  font-weight: bold;
+}
+
+
+/*-------------------------------------PHOTO ADMIN---------------------------*/
+#delete-photos {
+  margin-left: 50px;
+  text-align: center;
+  width: 370px;
+}
+
+#delete-photos .caption {
+  color: white;
+  background-color: black;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 20px;
+}
+
+.picture-box {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.picture-box img {
+  border: 5px solid white;
+  width: 360px;
+}
+
+
+/*----------------------------------ADMIN FORMS/TABLES-------------------------------*/
+form.upload fieldset {
+  background-color: #F2F5F5;
+  border: 1px solid navy;
+  padding: 10px;
+  width: 520px;
+}
+
+form.upload legend {
+  font-weight: bold;
+  font-size: small;
+  color: navy;
+  background-color: #F2F5F5;
+  padding: 0 5px 0 5px;
+}
+
+form.upload label {
+  font-weight: bold;
+  font-size: small;
+  line-height: 150%;
+}
+
+form.upload label.fixedwidth {
+  display: block;
+  width: 70px;
+  float: left;  
+}
+
+form.upload span {
+  margin-left: 5px;
+  font-size: small;
+  color: silver;
+}
+
+form.upload .button-area {
+  text-align: center;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+form div {
+  padding: 5px;
+}
+
+table {
+  text-align: center;
+  background-color: #F2F5F5;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 520px;
+}
+
+th {
+  background: navy;
+  color: white;
+  padding: 0.3em;
+}
+
+td {
+  border: 1px solid black;
+  padding: 0.3em;
+}
+
+td.delete-button {
+  text-align: center;
+}
+
+
+/*---------------------------------LINKS-------------------------------*/
+a {
+  color: #243663;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0077B6;
+}
+
+
+/*---------------------------------MISC--------------------------------*/
+.w3c-logos {
+  margin-top: 15px;
+  margin-left: 387px; /*page width / 2 - icon width = 950/2-88 = */
+  margin-bottom: 5px;
+}
+
+.w3c-logos img {
+  display: inline;
+}
+
+img {
+  display: block; /* Stops Firefox adding the white space below images */
+}
