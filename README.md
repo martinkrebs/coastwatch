@@ -4,10 +4,7 @@
 An information/hub site for NCI-Wells(National Coast Watch, Wells branch) with org/club blog like functionality
 
 ##### Technology
-- PHP
-- MySQL
-- HTML
-- CSS
+- PHP MySQL HTML CSS
 
 ##### Static Pages
 - Home
