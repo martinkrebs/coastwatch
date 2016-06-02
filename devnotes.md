@@ -19,7 +19,7 @@ _www             5402   0.0  0.0  2460892    848   ??  S     3:18pm   0:00.00 /u
 root             5398   0.0  0.2  2460892  10144   ??  Ss    3:18pm   0:00.29 /usr/sbin/httpd -D FOREGROUND
 ```
 
-##### Stop the system appache running
+##### Stop the system apache running
 ```
 $ sudo apachectl stop    # (also start and restart)
 ```
