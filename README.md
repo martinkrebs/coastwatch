@@ -5,8 +5,8 @@ An information/hub site for NCI-Wells(National Coast Watch, Wells branch) with o
 
 ##### Technology
 - * PHP, MySQL HTML CSS
-** Simple PHP, no frameworks, If I were doing this today I would probably use
-Laravel or a similar PHP framework.
+> Simple PHP, no frameworks, If I were doing this today I
+> would probably use Laravel or a similar PHP framework.
 
 ##### Static Pages
 - Home
