@@ -1,7 +1,7 @@
 ## coastwatch (2010)
 
 ##### Description
-An information/hub site for NCI-Wells(National Coast Watch, Wells branch) with org/club blog like functionality.
+An information/hub site for NCI-Wells(National Coast Watch, Wells branch) with org/club blog like functionality
 
 ##### Technology
 - PHP, MySQL HTML CSS
