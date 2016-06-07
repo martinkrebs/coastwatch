@@ -2,7 +2,8 @@
   
 <body>
 <div id="page">
-        
+    
+       
 	<img src="images/home-banner.gif" width="950" height="362" 
 	    alt="[Image: Coastwatch home banner]"/>
 
