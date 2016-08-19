@@ -1,5 +1,11 @@
 ## devnotes.md
 
+UBUNTU
+$ sudo /opt/lampp/lampp <start|stop|restart>
+// sudo password: Admin
+
+
+
 #### Manager-osx
 
 - This is the manager panel for XAMPP on OS X, you start the servers here etc.
